@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+:root {
+    --main-white: #f0f0f0;
+    --main-red: #be3144;
+    --main-blue: #45567d;
+    --main-gray: #303841;
+}
+/*reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Raleway', sans-serif;
+}
+/*HEADER*/
+header{
+    width: 100%;
+    background-color: #be3144;
+    height: 68px;
+}
+header nav{
+    width: 100%;
+    height: 68px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+}
+header nav a {
+    float: right;
+    margin: 8px 15px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 2.2rem;
+    padding: 2rem;
+    height: 68px;
+    
+}
+header nav a:hover{
+    background-color: #45567d;
+}
+/*ABOUT*/
+section#about{
+    width: 100%;
+    height: 300px;
+    background-color: #303841;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+section#about h1{
+    font-size: 6rem;
+    color: #fff;
+    text-align: center;
+}
+section#about p{
+    color: #be3144;
+    font-size: 3rem;
+}
+/*PROJECTS*/
+section#work{
+    width: 100%;
+    height: 1270px;
+    background-color: var(--main-blue);
+    display: grid;
+    
+    
+  
+
+}
+section#work h1{
+    text-align: center;
+    margin: 30px auto;
+    color: var(--main-white);
+    font-size: 4.2rem;
+    width: 50%;
+    height: 4.4rem;
+    border-bottom: 0.2rem solid #fff;
+
+}
+
+section#work article#project img{
+    width: 320px;
+    height: 319px;
+}
+section#work div#projects1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+section#work div#projects2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+section#work div#projects1 p{
+    font-size: 2rem;
+    padding: 2rem 0.5rem;
+    background-color: var(--main-gray);
+    text-align: center;
+    color: #fff;
+}
+section#work div#projects2 p{
+    font-size: 2rem;
+    padding: 2rem 0.5rem;
+    background-color: var(--main-gray);
+    text-align: center;
+    color: #fff;
+}
+section#work div#button-show-all{
+    text-align: center;
+    padding: 2rem 0.5rem;
+    background-color: var(--main-gray);
+    width: 150px;
+    height: 50px;
+    margin: 0 auto;
+}
+section#work div#button-show-all{
+    color: var(--main-white);
+    cursor: pointer;
+}
+section#work div#button-show-all:hover{
+    background-color: var(--main-red);
+}
+section#work div#button-show-all a{
+    color: var(--main-white);
+    text-decoration: none;
+    font-size: 1.6rem;
+}
+
